@@ -1,0 +1,2 @@
+# EarnOS
+Auto do tasks.
