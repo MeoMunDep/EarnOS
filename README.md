@@ -74,7 +74,8 @@ This file controls the bot’s behavior. Below is an example configuration:
   "delayEachAccount": [5, 8],
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 100,
-  "doTasks": true
+  "doTasks": true,
+  "skipWatchVideoTask": true
 }
 ```
 
@@ -87,6 +88,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
   - `doTasks`: Enable task completion.
+  - `skipWatchVideoTask`: Enable watch video task completion.
 
 ### 2. `datas.txt` - 🗂️ User Data
 
