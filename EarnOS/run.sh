@@ -37,7 +37,8 @@ create_default_configs() {
     "delayEachAccount": [5, 8],
     "timeToRestartAllAccounts": 300,
     "howManyAccountsRunInOneTime": 10,
-    "doTasks": true
+    "doTasks": true,
+    "skipWatchVideoTask":true,
 }
 EOL
 }
