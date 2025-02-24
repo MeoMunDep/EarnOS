@@ -38,11 +38,11 @@ echo Checking node_modules location...
 if exist "..\node_modules" (
     cd ..
     echo Installing/Updating dependencies in parent directory...
-    npm install user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx cheerio readline-sync moment lodash
+    npm install user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx cheerio 
     cd %~dp0
 ) else (
     echo Installing dependencies in current directory...
-    npm install user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx  cheerio readline-sync moment lodash
+    npm install user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx  cheerio 
 )
 echo.
 echo Dependencies installation completed!
