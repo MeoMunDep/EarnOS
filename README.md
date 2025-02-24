@@ -90,14 +90,14 @@ This file controls the bot’s behavior. Below is an example configuration:
 
 ### 2. `datas.txt` - 🗂️ User Data
 
-- Fill the data for `datas.txt` file, get data from [here](https://t.me/KeoAirDropFreeNee/1447). This file contains user data in the following format:
+- Fill the data for `datas.txt` file, get data from [here](https://t.me/KeoAirDropFreeNee/1463). This file contains user data in the following format:
 
-- Token
+- Cookie
 
 ```txt
-ey...
-ey...
-ey...
+abcxyz
+abcxyz
+abcxyz
 ```
 
 _Note: Each row for each account_
