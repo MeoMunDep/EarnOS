@@ -97,9 +97,9 @@ This file controls the bot’s behavior. Below is an example configuration:
 - Cookie
 
 ```txt
-abcxyz
-abcxyz
-abcxyz
+earnos-auth.v0.0.3=ey...
+earnos-auth.v0.0.3=ey...
+earnos-auth.v0.0.3=ey...
 ```
 
 _Note: Each row for each account_
