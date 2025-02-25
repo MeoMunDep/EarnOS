@@ -71,12 +71,17 @@ This file controls the bot’s behavior. Below is an example configuration:
   "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
+  "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
+  "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
-  "skipWatchVideoTask": true
+  "skipWatchVideoTask": false,
+
+  "doNewbieTasks": false,
+  "setRandomUsername": false,
+  "emailInviting": false
 }
+
 ```
 
 - **Fields Explained:**
@@ -88,7 +93,9 @@ This file controls the bot’s behavior. Below is an example configuration:
   - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
   - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
   - `doTasks`: Enable task completion.
-  - `skipWatchVideoTask`: Enable watch video task completion.
+  - `doNewbieTasks`: Enable watch video task completion.
+  - `setRandomUsername`: Enable set random username in newbie task.
+  - `emailInviting`: Enable email inviting in newbie task completion.
 
 ### 2. `datas.txt` - 🗂️ User Data
 
