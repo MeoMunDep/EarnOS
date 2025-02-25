@@ -7,5 +7,5 @@
   "timeToRestartAllAccounts": 300,
   "howManyAccountsRunInOneTime": 10,
   "doTasks": true,
-  "skipWatchVideoTask": true
+  "skipWatchVideoTask": false
 }
